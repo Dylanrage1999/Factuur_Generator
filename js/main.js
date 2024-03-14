@@ -15,11 +15,19 @@ angular.module('invoicing', [])
     postal: 'België'
   },
   company_info: {
-    name: 'Dylan Ragé',
-    web_link: 'https://github.com/Dylanrage1999',
-    address1: '123 Test straat',
-    address2: '9500 Geraardsbergen',
-    postal: 'België'
+    name: 'ir elektrowerken',
+    mail: 'ir.elektrowerken@gmail.com',
+    phone: '+32(0)499.98.71.08',
+    street: 'Gemeentestraat 163',
+    gemeente: '9500 Geraardsbergen'
+  },
+  factuur_info: {
+    reference: 'hier referentienummer',
+    date: 'huidige datum',
+    delivery_date: 'leveringsdatum',
+    vervaldag: 'vervaldag',
+    iban: 'BE13 7310 5848 7739',
+    bic: 'KREDBEBB'
   },
   items:[
     {  }
